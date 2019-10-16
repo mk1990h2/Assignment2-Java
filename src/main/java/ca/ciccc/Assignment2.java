@@ -119,7 +119,7 @@ public class Assignment2 {
     public boolean tripleIncreasingOrder(int[] nums) {
         boolean hasTripleIncreasing = false;
         if (nums.length >= 3) {
-            for (int i = 0; i + 2 < nums.length; i ++) {
+            for (int i = 0; i + 2 < nums.length; i++) {
                 if (nums[i] + 1 == nums[i + 1]
                         && nums[i + 1] + 1 == nums[i + 2]) {
                     hasTripleIncreasing = true;
@@ -141,7 +141,7 @@ public class Assignment2 {
         int oddCount = 0;
         int evenCount = 0;
         for (int num : nums) {
-            if(num % 2 == 0) {
+            if (num % 2 == 0) {
                 evenCount++;
             } else {
                 oddCount++;
